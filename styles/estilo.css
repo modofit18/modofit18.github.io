@@ -114,14 +114,12 @@ input[type="search"]:hover{
 	width: 23.8%;
 	height: 557px;
 	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 12px 20px 10px rgba(0,0,0,0.24), 0px 5px 10px 0px rgba(0,0,0,0.19);
 }
 .contenido{
 	width: 76.2%;
 	height: 557px;
 	margin-top: -557px;
 	margin-left: 23.8%;
-	box-shadow: 0px 12px 20px 10px rgba(0,0,0,0.24), 0px 5px 10px 0px rgba(0,0,0,0.19);
 }
 .contenido h1{
 	text-align: center;
@@ -149,4 +147,119 @@ input[type="search"]:hover{
 	border-radius: 50%;
 	margin-left: 100px;
 	margin-top: 20px;
+}
+@media screen and (max-width:360px){
+	.navegacion{
+		width: 100%;
+		background: #fff;
+	  box-shadow: 0px 12px 20px 10px rgba(0,0,0,0.24), 0px 5px 10px 0px rgba(0,0,0,0.19);
+	}
+	.navegacion ul{
+		list-style: none;
+	}
+	.menu > li{
+		position: relative;
+		display: inline-block;
+	}
+	.menu > li > a{
+		display: block;
+		padding: 15px 15px;
+		color: #353535;
+		font-family: 'Open sans';
+		text-decoration: none;
+	}
+	.menu li a:hover{
+		color: #000000;
+		transition: all .3s;
+	}
+	nav ul li:hover{
+	  background-color:rgb(16, 150, 33);
+	}
+	nav ul li img{
+	  width: 70%;
+	  height: 70%;
+		margin-left: 5px;
+	}
+			/* Submenu*/
+	.submenu{
+		position: absolute;
+		background-color: rgb(55, 194, 57);
+		width: 480%;
+		height: 970%;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity 1.5s;
+	}
+	.submenu li a{
+		display: block
+		padding: 15px 15px;
+		font-family: 'Open sans';
+		text-decoration: none;
+	}
+	.submenu li a img{
+		width: 30px;
+		height: 30px;
+	}
+	.submenu li img{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+	.publicidad{
+	display: none;
+	}
+	.dato-user{
+		margin-top: 100px;
+		color: white;
+		font-weight: bolder;
+	}
+	#dato-user-2{
+		margin-top: -30px;
+	}
+	.dato-user:hover{
+		background-color: rgb(55, 194, 57);
+	}
+	#dato-user-2:hover{
+		background-color: rgb(55, 194, 57);
+	}
+	.menu li:hover .submenu{
+		visibility: visible;
+		opacity: 1;
+	}
+	.contenido{
+		width: 100%;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+}
+.contenido h1{
+	text-align: center;
+	font-family: sans-serif;
+}
+.contenido ul{
+	list-style: none;
+}
+.contenido ul li{
+	display: inline-block;
+	width: 40%;
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 100px;
+	background-color: rgb(40, 40, 40);
+}
+.contenido a{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+}
+.contenido a img{
+	width: 80%;
+	height: 45%;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
 }
