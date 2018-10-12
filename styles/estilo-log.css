@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: rgb(255, 255, 255);
+}
+header{
+	width: 100%;
+}
+/*contenido inicio de sesion*/
+.form-log{
+  width: 40%;
+  height: 400px;
+  margin-left:30%;
+  margin-top: 5%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 12px 20px 10px rgba(0,0,0,0.24), 0px 10px 10px 0px rgba(0,0,0,0.19);
+}
+.form-log p{
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 0;
+  padding-top: 30px;
+}
+.form-log input{
+  margin-left: 25%;
+  width: 50%;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: medium;
+}
+.form-log legend{
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.logo-sesion{
+  width: 300px;
+  height: 80px;
+  margin: 10px 130px 0px;
+}
+.button {
+  background-color: rgb(22, 159, 35);/*VERDE*/
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+.button:hover {
+  box-shadow: 0 0px 17px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.reset-pass{
+  text-decoration: underline;
+  text-align: center;
+}
+.reset-pass a{
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}

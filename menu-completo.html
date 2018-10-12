@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MODOFIT</title>
+    <link rel="stylesheet" href="styles/estilo.css">
+  </head>
+  <body>
+    <nav class="navegacion">
+			<ul class="menu">
+        <li><a href="#"> <img src="images/icon/menu.png" alt=""> </a>
+					<ul class="submenu">
+						<li><a href="#"> <img src="images/icon/ejercicio.png" alt=""> </a></li>
+						<li><a href="#"> <img src="images/icon/diet.png" alt=""> </a></li>
+						<li><a href="#"> <img src="images/icon/perfil.png" alt=""> </a></li>
+					</ul>
+				</li>
+        <li class="buscar">
+          <input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+        </li>
+				<li class="user"><a href="#"><img src="images/icon/modofit2.png" alt=""></a>
+          <ul class="submenu">
+            <li><a href="#"><img src="images/icon/user-1.png" alt=""></a></li>
+            <li><a href="#"><img src="images/icon/reg.png" alt=""></a></li>
+          </ul>
+        </li>
+			</ul>
+		</nav>
+    <main>
+      <section class="contenido">
+        <section class="form-log">
+          <img src="images/logo.png" alt="logo" class="logo-sesion">
+          <form class="form-login" action="index.html" method="post">
+            <legend>INICIAR SESION</legend>
+            <p>
+              <input type="email" id="mail" name="usermail" required placeholder="Ingresar Usuario">
+            </p>
+            <p>
+              <input type="password" id="pwd" name="password" required pattern="[A-Za-z0-9]" required placeholder="Ingresar Contraseña">
+            </p>
+            <button type="button" name="button" value="INICIAR SESION" class="button" id="btn-sesion">INICIAR SESION</button>
+          </form>
+            <p class="reset-pass">
+              <a href="restart.html"> ¿Olvidaste la contraseña?</a>
+            </p>
+        </section>
+      </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

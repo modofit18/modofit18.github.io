@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: rgb(255, 255, 255);
+}
+/*contenido inicio de sesion*/
+.form-reg{
+  width: 40%;
+  height: 500px;
+  margin-left:30%;
+  margin-top: 5%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 12px 20px 10px rgba(0,0,0,0.24), 0px 10px 10px 0px rgba(0,0,0,0.19);
+}
+.form-reg input{
+  width: 50%;
+  height: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.button {
+  background-color: rgb(22, 159, 35);/*VERDE*/
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+.button:hover {
+  box-shadow: 0 0px 17px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#btn-tipo-user{
+  margin-top: 120px;
+}
+.numeracion{
+	background-color: rgb(163, 241, 168);
+	border-radius: 50%;
+	border: none;
+	width: 40px;
+	height: 40px;
+}
+/* regstro profesional */
+.title{
+	text-align: center;
+	font-size: 24px;
+	margin-left: 50px;
+	font-family: sans-serif;
+}
+.des{
+	width: 300px;
+	margin-left: 120px;
+	margin-top: 20px;
+	height: 40px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.other{
+	margin-top: 20px;
+	margin-left: 25%;
+}
+.modalidad{
+  float: left;
+  width: 30%;
+	height: 120px;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+.modalidad label{
+  float: left;
+	font-size: 12px;
+}
+.modalidad input{
+  float: right;
+	width: 20px;
+	height: 20px;
+}
+.modalidad-2{
+  float: right;
+	width: 20%;
+	height: 100px;
+	margin-top: 20px;
+  margin-right: 100px;
+}
+.modalidad-2 label{
+	float: left;
+  margin-top: 5px;
+	font-size: 12px;
+}
+.modalidad-2 input{
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+.other2{
+	margin-top: 55px;
+	margin-left: 25%;
+}
+.pre{
+  float: left;
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.pos{
+  float: right;
+  border: none;
+  background-color: transparent;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+#desactive{
+  margin-top: 30px;
+  margin-left: 170px;
+}
+#active{
+  background-color: rgb(21, 168, 27);
+  margin-top: -150px;
+  margin-left: 0px;
+}
+#active-2{
+  background-color: rgb(21, 168, 27);
+  margin-top: 30px;
+  margin-left: 200px;
+}
